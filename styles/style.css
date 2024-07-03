@@ -27,13 +27,15 @@ body {
 }
 
 .container {
-  margin: 1em 1em;
-  max-width: 19.8cm;
+  width: 740px;
+  max-width: calc( 100vw - 40px);
   background-color: white;
   border-radius: 25px;
   padding: 20px;
   display: flex;
   flex-direction: column;
+  margin-top:100px;
+  margin-bottom: 100px;
 }
 .container img {
   width: calc(100% - 40px);
