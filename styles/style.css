@@ -111,17 +111,28 @@ li {
   margin: 0em 1em;
 }
 
-.nutri-list{
-  list-style-type: none;
-  margin-top: 0px;
-  li{
-    display: flex;
-    flex-direction: row;
-  }
+
+table{
+  padding: 50px;
+  border-collapse: collapse;
+  width: 95%;
+  align-self: center;
+  margin-bottom:10px;
+}
+td{
+  text-align: left;
+  padding: 1rem;
+  border-bottom: 1px solid hsl(30, 18%, 87%);
+  padding-left: 30px;
+  border-collapse: collapse;
+  margin: 50px;
 }
 .weight{
   color: hsl(14, 45%, 36%);
   font-weight: 700;
   display: block;
-  justify-self: center;
+  text-align: center;
 }   
+.last-row{
+  border-bottom:0px ;
+}
